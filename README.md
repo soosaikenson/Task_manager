@@ -20,7 +20,7 @@ The tool is based in the terminal/command line. You’ll register first, then lo
 ### File Structure
 
 - **users.json**: This file stores usernames and passwords.
-- **[username]_tasks.json**: Each user has a unique file (like `alice_tasks.json`) to store their tasks.
+- **[username]_tasks.json**: Each user has a unique file (like `kenson_tasks.json`) to store their tasks.
 
 ### Commands and Navigation
 
