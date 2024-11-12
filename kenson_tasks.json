@@ -1,1 +1,1 @@
-[{"id": 1, "title": "do dishes", "description": "use soap and clean plates", "due_date": "2024-12-12", "priority": "High", "completed": false}, {"id": 2, "title": "Prepare for interview", "description": "Practice a lot", "due_date": "2024-11-20", "priority": "High", "completed": false}, {"id": 3, "title": "Assignment", "description": "Complete the coding assignment", "due_date": "2024-11-12", "priority": "High", "completed": false}]
+[{"id": 2, "title": "Jobs", "description": "Apply for jobs", "due_date": "2024-11-15", "priority": "High", "completed": true}]

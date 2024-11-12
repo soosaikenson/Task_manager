@@ -66,8 +66,7 @@ class Task:
         self.completed = completed
 
     def __repr__(self):
-        status = "✓" if self.completed else "✓"
-        # status = "✓" if self.completed else "✗"
+        status = "✓" if self.completed else "✗"
         return (f"[{status}] {self.id}: {self.title} | Priority: {self.priority} | "
                 f"Due: {self.due_date} | Description: {self.description}")
 
@@ -102,7 +101,7 @@ def add_task(tasks, username):
     due_date = input("Enter due date (YYYY-MM-DD): ")
     priority = input("Enter priority (High, Medium, Low): ")
     task_id = len(tasks) + 1
-    new_task = Task(task_id, title, description, due_date, priority)
+    new_task = Task(task_id, title, description, due_date, priority)       #Generating new object(new_task) for the class Task
     tasks.append(new_task)
     save_tasks(tasks, username)
     print(f"Task added: {new_task.title}")

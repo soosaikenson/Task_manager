@@ -4,7 +4,7 @@ Welcome to the Task Manager CLI! This is a simple command-line tool where you ca
 
 ## Features
 
-1. **Register**: Create a new account with a unique username and password.
+1. **Register**: Create a new account with a unique username and password. You can have multiple users in this application
 2. **Login**: Log in to your account to access your tasks.
 3. **Task Management**:
    - **Add Task**: Add new tasks with details like title, description, due date, and priority.
@@ -19,7 +19,7 @@ The tool is based in the terminal/command line. You’ll register first, then lo
 
 ### File Structure
 
-- **users.json**: This file stores usernames and passwords.
+- **users.json**: This file stores usernames and passwords. We can add multiple users by registering before logging in.
 - **[username]_tasks.json**: Each user has a unique file (like `kenson_tasks.json`) to store their tasks.
 
 ### Commands and Navigation
@@ -28,7 +28,7 @@ The tool is based in the terminal/command line. You’ll register first, then lo
 2. **Choose Register or Login**: You’ll be asked if you want to register, log in, or exit.
 3. **Inside Task Manager**:
    - Choose from options to add, view, delete, or complete tasks.
-   - You can view tasks as a table with details like priority and completion status.
+   - You can view tasks as a table with details like priority and completion status. 
    - Choose “Logout” to go back to the main menu.
 
 ## Example
