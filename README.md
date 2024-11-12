@@ -43,6 +43,6 @@ Welcome to the Task Manager CLI!
 Choose an option: 1
 
 --- Register ---
-Enter a username: alice
+Enter a username: kenson
 Enter a password: ****
 Registration successful!
